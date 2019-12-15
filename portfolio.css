@@ -1,0 +1,10 @@
+* {
+    box-sizing: border-box;
+    text-align: left;
+}
+
+h1 {
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
