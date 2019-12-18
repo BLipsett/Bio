@@ -1,59 +1,60 @@
 body {
     padding: 0;
     margin: 0;
-    font-family: Georgia, "Times New Roman", Times, serif;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 18px;
     line-height: 150%;
-    color: #333;
-    background: #efeee7;
+    color: #777777;
+   
+    background-image: url("grey_wash_wall.png");
   }
   
-  header {
-    background: #d21034;
-  }
-  
-  h1 {
-    padding: 20px 0;
-    margin: 0;
-    margin-bottom: 20px;
-    font-size: 28px;
-    color: #eee;
-    text-align: center;
-    background: #333;
-  }
-  
-  h2 {
-    font-size: 24px;
-  }
-  
-  a {
-    color: #d21034;
-  }
-  
-  .container {
-    width: 1024px;
-    margin: 0 auto;
-  }
-  
-  #main-bio,
-  #contact-info,
-  #bio-image {
-    float: left;
-  }
-  
-  #main-bio {
-    width: 70%;
-  }
-  
-  #contact-info {
-    width: 30%;
-    float: left;
-  }
-  
-  #bio-image {
+.header  {
+   overflow: hidden;
+   background-color: #ffffff;
+   padding: 20px 10px;
+ }
+
+.header a {
+   float: left;
+   color: darkcyan;
+   text-align: center;
+   padding: 12px;
+   text-decoration: none;
+   font-size: 18px;
+   line-height: 25px;
+   border-radius: 4px;
+
+ }
+
+.h1 {
+  font-size: 25px;
+  font-weight: bold;
+
+ }
+
+.header a:hover {
+  background-color: #03038a;
+  color: black;
+}
+
+.heaer a.active {
+  background-color: dodgerblue;
+  color: white;
+
+}
+
+.header .right {
+  float: right;
+
+}
+
+#main-bio {
+
+}
+#bio-image {
     width: 200px;
     height: 200px;
     margin-right: 20px;
-  }
   
 
