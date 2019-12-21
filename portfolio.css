@@ -66,6 +66,22 @@ h1 {
 }
 
 #bio-image {
+  padding: 15px 15px;
+  float: left;
   width: 200px;
   height: 200px;
+}
+
+#main-bio p {
+  padding: 15px;
+  text-indent: 50px;
+}
+
+#about-me {
+  float: left;
+  clear: right;
+  font-family:  Georgia, 'Times New Roman', Times, serif;
+  width: 100%;
+  background-color: #ffffff;
+  color: #4aaaa5;
 }
