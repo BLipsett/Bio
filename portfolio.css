@@ -9,7 +9,7 @@ body {
   font-size: 18px;
   line-height: 150%;
   color: #777777;
-  background-image: url("grey_wash_wall.png");
+  background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/escheresque.png);
   background-color: dimgrey;
 }
 
@@ -27,7 +27,6 @@ body {
   text-decoration: none;
   font-size: 18px;
   line-height: 150%;
-  border-radius: 4px;
   padding: 0px 10px;
 }
 
@@ -45,9 +44,12 @@ h1 {
   color: black;
 }
 
-.heaer a.active {
-  background-color: dodgerblue;
-  color: white;
+
+
+a.middle {
+  border: 1px solid #4aaaa5;
+  border-top-color: #ffffff;
+  border-bottom-color: #ffffff;
 }
 
 .header-right {
@@ -84,4 +86,20 @@ h1 {
   width: 100%;
   background-color: #ffffff;
   color: #4aaaa5;
+  border-bottom: 8px solid #eeeeee;
+  padding: 25px 0px 41px 15px;
+}
+
+
+.footer  {
+  text-align: center;
+  color: #ffffff;
+  border-top: 8px solid #4aaaa5;
+  background-color: #777777;
+  font-family: 'Lobster' , cursive;
+  font-size: 25px;
+  padding: 6px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
